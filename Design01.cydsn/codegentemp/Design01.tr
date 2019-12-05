@@ -1,0 +1,154 @@
+##################################################################### 
+                    Table of Contents
+===================================================================== 
+	1::Clock Frequency Summary
+	2::Clock Relationship Summary
+	3::Datasheet Report
+		3.1::Setup to Clock
+		3.2::Clock to Out
+		3.3::Pad to Pad
+	4::Path Details for Clock Frequency Summary
+	5::Path Details for Clock Relationship Summary
+===================================================================== 
+                    End of Table of Contents
+##################################################################### 
+
+##################################################################### 
+                    1::Clock Frequency Summary
+===================================================================== 
+Number of clocks: 13
+Clock: CyBUS_CLK                    | N/A  | Target: 24.00 MHz  | 
+Clock: CyILO                        | N/A  | Target: 0.00 MHz   | 
+Clock: CyIMO                        | N/A  | Target: 3.00 MHz   | 
+Clock: CyMASTER_CLK                 | N/A  | Target: 24.00 MHz  | 
+Clock: CyPLL_OUT                    | N/A  | Target: 24.00 MHz  | 
+Clock: Driver1_ClkInternal          | N/A  | Target: 0.00 MHz   | 
+Clock: Driver1_ClkInternal(routed)  | N/A  | Target: 0.00 MHz   | 
+Clock: Driver2_ClkInternal          | N/A  | Target: 0.00 MHz   | 
+Clock: Driver2_ClkInternal(routed)  | N/A  | Target: 0.00 MHz   | 
+Clock: Driver3_ClkInternal          | N/A  | Target: 0.00 MHz   | 
+Clock: Driver3_ClkInternal(routed)  | N/A  | Target: 0.00 MHz   | 
+Clock: Driver_ClkInternal           | N/A  | Target: 0.00 MHz   | 
+Clock: Driver_ClkInternal(routed)   | N/A  | Target: 0.00 MHz   | 
+
+ =====================================================================
+                    End of Clock Frequency Summary
+ #####################################################################
+
+
+ #####################################################################
+                    2::Clock Relationship Summary
+ =====================================================================
+
+Launch Clock  Capture Clock  Constraint(R-R)  Slack(R-R)  Constraint(R-F)  Slack(R-F)  Constraint(F-F)  Slack(F-F)  Constraint(F-R)  Slack(F-R)  
+
+ =====================================================================
+                    End of Clock Relationship Summary
+ #####################################################################
+
+
+ #####################################################################
+                    3::Datasheet Report
+
+All values are in Picoseconds
+ =====================================================================
+
+3.1::Setup to Clock                     
+-------------------                     
+
+Port Name  Setup to Clk  Clock Name:Phase  
+---------  ------------  ----------------  
+
+
+-----------------------3.2::Clock to Out
+----------------------------------------
+
+Port Name     Clock to Out  Clock Name:Phase  
+------------  ------------  ----------------  
+Com(0)_PAD    24339         CyBUS_CLK:R       
+Com(1)_PAD    24228         CyBUS_CLK:R       
+Com(2)_PAD    24246         CyBUS_CLK:R       
+Com(3)_PAD    24292         CyBUS_CLK:R       
+Com_1(0)_PAD  25066         CyBUS_CLK:R       
+Com_1(1)_PAD  24534         CyBUS_CLK:R       
+Com_1(2)_PAD  25561         CyBUS_CLK:R       
+Com_1(3)_PAD  24890         CyBUS_CLK:R       
+Com_2(0)_PAD  26054         CyBUS_CLK:R       
+Com_2(1)_PAD  26008         CyBUS_CLK:R       
+Com_2(2)_PAD  27326         CyBUS_CLK:R       
+Com_2(3)_PAD  26482         CyBUS_CLK:R       
+Com_3(0)_PAD  28459         CyBUS_CLK:R       
+Com_3(1)_PAD  28011         CyBUS_CLK:R       
+Com_3(2)_PAD  28342         CyBUS_CLK:R       
+Com_3(3)_PAD  28175         CyBUS_CLK:R       
+Seg(0)_PAD    25888         CyBUS_CLK:R       
+Seg(1)_PAD    26610         CyBUS_CLK:R       
+Seg(2)_PAD    27557         CyBUS_CLK:R       
+Seg(3)_PAD    26296         CyBUS_CLK:R       
+Seg(4)_PAD    25972         CyBUS_CLK:R       
+Seg(5)_PAD    25943         CyBUS_CLK:R       
+Seg(6)_PAD    26382         CyBUS_CLK:R       
+Seg(7)_PAD    28088         CyBUS_CLK:R       
+Seg_1(0)_PAD  25146         CyBUS_CLK:R       
+Seg_1(1)_PAD  25681         CyBUS_CLK:R       
+Seg_1(2)_PAD  25514         CyBUS_CLK:R       
+Seg_1(3)_PAD  24407         CyBUS_CLK:R       
+Seg_1(4)_PAD  23847         CyBUS_CLK:R       
+Seg_1(5)_PAD  23954         CyBUS_CLK:R       
+Seg_1(6)_PAD  24598         CyBUS_CLK:R       
+Seg_1(7)_PAD  23945         CyBUS_CLK:R       
+Seg_2(0)_PAD  26835         CyBUS_CLK:R       
+Seg_2(1)_PAD  24490         CyBUS_CLK:R       
+Seg_2(2)_PAD  25067         CyBUS_CLK:R       
+Seg_2(3)_PAD  23969         CyBUS_CLK:R       
+Seg_2(4)_PAD  23697         CyBUS_CLK:R       
+Seg_2(5)_PAD  24086         CyBUS_CLK:R       
+Seg_2(6)_PAD  24565         CyBUS_CLK:R       
+Seg_2(7)_PAD  25114         CyBUS_CLK:R       
+Seg_3(0)_PAD  27293         CyBUS_CLK:R       
+Seg_3(1)_PAD  24773         CyBUS_CLK:R       
+Seg_3(2)_PAD  24247         CyBUS_CLK:R       
+Seg_3(3)_PAD  25929         CyBUS_CLK:R       
+Seg_3(4)_PAD  27314         CyBUS_CLK:R       
+Seg_3(5)_PAD  26180         CyBUS_CLK:R       
+Seg_3(6)_PAD  25635         CyBUS_CLK:R       
+Seg_3(7)_PAD  25474         CyBUS_CLK:R       
+
+
+                         3.3::Pad to Pad
+                         ---------------
+
+Port Name (Source)  Port Name (Destination)  Delay  
+------------------  -----------------------  -----  
+
+===================================================================== 
+                    End of Datasheet Report
+##################################################################### 
+##################################################################### 
+                    4::Path Details for Clock Frequency Summary
+
+===================================================================== 
+                    End of Path Details for Clock Frequency Summary
+##################################################################### 
+
+
+##################################################################### 
+                    5::Path Details for Clock Relationship Summary
+===================================================================== 
+
+
+===================================================================== 
+                    End of Path Details for Clock Relationship Summary
+##################################################################### 
+
+##################################################################### 
+                    Detailed Report for all timing paths 
+===================================================================== 
+===================================================================== 
+                    End of Detailed Report for all timing paths 
+##################################################################### 
+
+##################################################################### 
+                    End of Timing Report 
+##################################################################### 
+

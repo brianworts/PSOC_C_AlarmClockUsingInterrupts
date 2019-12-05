@@ -1,0 +1,87 @@
+# Design01
+# 2019-12-05 23:01:52Z
+
+# IO_0@[IOP=(1)][IoId=(0)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 0
+# IO_1@[IOP=(1)][IoId=(1)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 1
+# IO_3@[IOP=(1)][IoId=(3)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 3
+set_location "ClockBlock" clockblockcell -1 -1 0
+set_io "SW(0)" iocell 6 1
+set_io "\LCD:LCDPort(0)\" iocell 2 0
+set_io "\LCD:LCDPort(1)\" iocell 2 1
+set_io "\LCD:LCDPort(2)\" iocell 2 2
+set_io "\LCD:LCDPort(3)\" iocell 2 3
+set_io "\LCD:LCDPort(4)\" iocell 2 4
+set_io "\LCD:LCDPort(5)\" iocell 2 5
+set_io "\LCD:LCDPort(6)\" iocell 2 6
+set_io "SW2(0)" iocell 15 5
+set_io "Seg(0)" iocell 12 6
+set_io "Seg(1)" iocell 12 7
+set_io "Seg(2)" iocell 6 0
+set_io "Seg(3)" iocell 0 4
+set_io "Seg(4)" iocell 0 3
+set_io "Seg(5)" iocell 0 1
+set_io "Seg(6)" iocell 0 2
+set_io "Seg(7)" iocell 6 6
+set_io "Com(0)" iocell 5 0
+set_io "Com(1)" iocell 5 1
+set_io "Com(2)" iocell 5 2
+set_io "Com(3)" iocell 5 3
+set_io "Seg_1(0)" iocell 0 5
+set_io "Seg_1(1)" iocell 0 6
+set_io "Seg_1(2)" iocell 0 7
+set_io "Seg_1(3)" iocell 3 7
+set_io "Seg_1(4)" iocell 3 6
+set_io "Seg_1(5)" iocell 3 4
+set_io "Seg_1(6)" iocell 3 5
+set_io "Seg_1(7)" iocell 3 0
+set_io "Seg_2(0)" iocell 0 0
+set_io "Seg_2(1)" iocell 1 2
+set_io "Seg_2(2)" iocell 3 1
+set_io "Seg_2(3)" iocell 1 4
+set_io "Seg_2(4)" iocell 1 5
+set_io "Seg_2(5)" iocell 1 6
+set_io "Seg_2(6)" iocell 1 7
+set_io "Seg_2(7)" iocell 2 7
+set_io "Seg_3(0)" iocell 6 2
+set_io "Seg_3(1)" iocell 3 2
+set_io "Seg_3(2)" iocell 3 3
+set_io "Seg_3(3)" iocell 6 3
+set_io "Seg_3(4)" iocell 6 4
+set_io "Seg_3(5)" iocell 6 5
+set_io "Seg_3(6)" iocell 6 7
+set_io "Seg_3(7)" iocell 12 0
+set_io "Com_1(0)" iocell 5 4
+set_io "Com_1(1)" iocell 5 5
+set_io "Com_1(2)" iocell 5 6
+set_io "Com_1(3)" iocell 5 7
+set_io "Com_2(0)" iocell 4 0
+set_io "Com_2(1)" iocell 4 1
+set_io "Com_2(2)" iocell 4 2
+set_io "Com_2(3)" iocell 4 3
+set_io "Com_3(0)" iocell 4 4
+set_io "Com_3(1)" iocell 4 5
+set_io "Com_3(2)" iocell 4 6
+set_io "Com_3(3)" iocell 4 7
+set_location "\Driver:Net_1332\" 3 0 1 0
+set_location "\Driver1:Net_1332\" 1 1 1 3
+set_location "\Driver2:Net_1332\" 1 0 0 2
+set_location "\Driver3:Net_1332\" 3 1 1 2
+set_location "\Driver:Seg_Driver_L:Sync:ctrl_reg\" 3 0 6
+set_location "\Driver:Com_Driver:Sync:ctrl_reg\" 0 1 6
+set_location "\Driver:DMA_Com\" drqcell -1 -1 6
+set_location "\Driver:DMA_Seg\" drqcell -1 -1 7
+set_location "\Driver1:Seg_Driver_L:Sync:ctrl_reg\" 3 1 6
+set_location "\Driver1:Com_Driver:Sync:ctrl_reg\" 2 1 6
+set_location "\Driver1:DMA_Com\" drqcell -1 -1 0
+set_location "\Driver1:DMA_Seg\" drqcell -1 -1 1
+set_location "\Driver2:Seg_Driver_L:Sync:ctrl_reg\" 1 1 6
+set_location "\Driver2:Com_Driver:Sync:ctrl_reg\" 2 0 6
+set_location "\Driver2:DMA_Com\" drqcell -1 -1 2
+set_location "\Driver2:DMA_Seg\" drqcell -1 -1 3
+set_location "\Driver3:Seg_Driver_L:Sync:ctrl_reg\" 0 0 6
+set_location "\Driver3:Com_Driver:Sync:ctrl_reg\" 1 0 6
+set_location "\Driver3:DMA_Com\" drqcell -1 -1 4
+set_location "\Driver3:DMA_Seg\" drqcell -1 -1 5
