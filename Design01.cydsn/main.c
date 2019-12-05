@@ -1,7 +1,22 @@
 #include "project.h"
 #include "stdio.h"
+
+uint16 ms_count = 0;
+ 
+CY_ISR(MY_ISR) 
+{
+    ms_count++;
+     
+    if(ms_count == 1000) { // 1 second
+        LED_Write(!LED_Read()); // Toggle LED
+        ms_count = 0; // reset ms counter
+    }
+}
+
 int main(void)
 {
+    Timer_1_Start(); // Configure and enable timer
+    isr_1_StartEx(MY_ISR); // Point to MY_ISR to carry out the interrupt sub-routine
     CyGlobalIntEnable; /* Enable global interrupts. */
     
     LCD_Start();
