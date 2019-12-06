@@ -166,13 +166,19 @@ CY_ISR(isr_2_Interrupt)
 
     /*  Place your Interrupt code here. */
     /* `#START isr_2_Interrupt` */
+    
+    //variable declarations
     int x = 25;
     char str1[15];
     
+    //while loop to change the comparison values
     while (x>0)
     {
+        //pass x to the PWM which turns the servo and then increment by 1
         PWM_1_WriteCompare(x);
         x = x - 1;
+         
+        //have the LCD display the compare value for debugging
         LCD_ClearDisplay();
         LCD_Position(0,0);
         sprintf(str1, "%d",x );
@@ -180,7 +186,9 @@ CY_ISR(isr_2_Interrupt)
         CyDelay(10);
     }
     
+    //once all the comparisons are complete, end the interrupt, going back to main.c
     isr_2_Stop();
+    
     /* `#END` */
 }
 
