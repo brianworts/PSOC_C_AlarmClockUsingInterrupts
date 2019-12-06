@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8Y1qCb.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
   28:Generated_Source\PSoC5/LCD_PM.c **** *  Does nothing, provided for consistency.
   29:Generated_Source\PSoC5/LCD_PM.c **** *
   30:Generated_Source\PSoC5/LCD_PM.c **** * Parameters:
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 2
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8Y1qCb.s 			page 2
 
 
   31:Generated_Source\PSoC5/LCD_PM.c **** *  None.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
   55              		.align	2
   56              		.global	LCD_Sleep
   57              		.thumb
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 3
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8Y1qCb.s 			page 3
 
 
   58              		.thumb_func
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
   87              		.size	LCD_Sleep, .-LCD_Sleep
   88              		.section	.text.LCD_Wakeup,"ax",%progbits
   89              		.align	2
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 4
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8Y1qCb.s 			page 4
 
 
   90              		.global	LCD_Wakeup
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
  113 000e 08BD     		pop	{r3, pc}
  114              	.L11:
  115              		.align	2
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 5
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8Y1qCb.s 			page 5
 
 
  116              	.L10:
@@ -264,10 +264,10 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
  136 0006 00000000 		.4byte	.Ldebug_abbrev0
  137 000a 04       		.byte	0x4
  138 000b 01       		.uleb128 0x1
- 139 000c B6000000 		.4byte	.LASF20
+ 139 000c 66000000 		.4byte	.LASF20
  140 0010 0C       		.byte	0xc
  141 0011 23000000 		.4byte	.LASF21
- 142 0015 43000000 		.4byte	.LASF22
+ 142 0015 61010000 		.4byte	.LASF22
  143 0019 00000000 		.4byte	.Ldebug_ranges0+0
  144 001d 00000000 		.4byte	0
  145 0021 00000000 		.4byte	.Ldebug_line0
@@ -278,7 +278,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
  150 002c 02       		.uleb128 0x2
  151 002d 01       		.byte	0x1
  152 002e 08       		.byte	0x8
- 153 002f A8000000 		.4byte	.LASF1
+ 153 002f 58000000 		.4byte	.LASF1
  154 0033 02       		.uleb128 0x2
  155 0034 02       		.byte	0x2
  156 0035 05       		.byte	0x5
@@ -286,7 +286,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
  158 003a 02       		.uleb128 0x2
  159 003b 02       		.byte	0x2
  160 003c 07       		.byte	0x7
- 161 003d 56010000 		.4byte	.LASF3
+ 161 003d 06010000 		.4byte	.LASF3
  162 0041 02       		.uleb128 0x2
  163 0042 04       		.byte	0x4
  164 0043 05       		.byte	0x5
@@ -294,18 +294,18 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
  166 0048 02       		.uleb128 0x2
  167 0049 04       		.byte	0x4
  168 004a 07       		.byte	0x7
- 169 004b 44010000 		.4byte	.LASF5
+ 169 004b F4000000 		.4byte	.LASF5
  170 004f 02       		.uleb128 0x2
  171 0050 08       		.byte	0x8
  172 0051 05       		.byte	0x5
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 6
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8Y1qCb.s 			page 6
 
 
  173 0052 B1010000 		.4byte	.LASF6
  174 0056 02       		.uleb128 0x2
  175 0057 08       		.byte	0x8
  176 0058 07       		.byte	0x7
- 177 0059 9A010000 		.4byte	.LASF7
+ 177 0059 4A010000 		.4byte	.LASF7
  178 005d 03       		.uleb128 0x3
  179 005e 04       		.byte	0x4
  180 005f 05       		.byte	0x5
@@ -313,7 +313,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
  182 0064 02       		.uleb128 0x2
  183 0065 04       		.byte	0x4
  184 0066 07       		.byte	0x7
- 185 0067 8D010000 		.4byte	.LASF8
+ 185 0067 3D010000 		.4byte	.LASF8
  186 006b 04       		.uleb128 0x4
  187 006c E0010000 		.4byte	.LASF12
  188 0070 02       		.byte	0x2
@@ -322,11 +322,11 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
  191 0077 02       		.uleb128 0x2
  192 0078 04       		.byte	0x4
  193 0079 04       		.byte	0x4
- 194 007a 93000000 		.4byte	.LASF9
+ 194 007a 43000000 		.4byte	.LASF9
  195 007e 02       		.uleb128 0x2
  196 007f 08       		.byte	0x8
  197 0080 04       		.byte	0x4
- 198 0081 69010000 		.4byte	.LASF10
+ 198 0081 19010000 		.4byte	.LASF10
  199 0085 02       		.uleb128 0x2
  200 0086 01       		.byte	0x1
  201 0087 08       		.byte	0x8
@@ -349,7 +349,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
  218 00a7 2F       		.byte	0x2f
  219 00a8 8C000000 		.4byte	0x8c
  220 00ac 08       		.uleb128 0x8
- 221 00ad 99000000 		.4byte	.LASF14
+ 221 00ad 49000000 		.4byte	.LASF14
  222 00b1 01       		.byte	0x1
  223 00b2 25       		.byte	0x25
  224 00b3 00000000 		.4byte	.LFB0
@@ -357,8 +357,8 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
  226 00bb 01       		.uleb128 0x1
  227 00bc 9C       		.byte	0x9c
  228 00bd 08       		.uleb128 0x8
- 229 00be 7B010000 		.4byte	.LASF15
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 7
+ 229 00be 2B010000 		.4byte	.LASF15
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8Y1qCb.s 			page 7
 
 
  230 00c2 01       		.byte	0x1
@@ -412,13 +412,13 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
  278 0131 03       		.byte	0x3
  279 0132 39       		.byte	0x39
  280 0133 0D       		.uleb128 0xd
- 281 0134 70010000 		.4byte	.LASF19
- 282 0138 70010000 		.4byte	.LASF19
+ 281 0134 20010000 		.4byte	.LASF19
+ 282 0138 20010000 		.4byte	.LASF19
  283 013c 03       		.byte	0x3
  284 013d 37       		.byte	0x37
  285 013e 00       		.byte	0
  286              		.section	.debug_abbrev,"",%progbits
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 8
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8Y1qCb.s 			page 8
 
 
  287              	.Ldebug_abbrev0:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
  341 0035 00       		.byte	0
  342 0036 05       		.uleb128 0x5
  343 0037 13       		.uleb128 0x13
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 9
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8Y1qCb.s 			page 9
 
 
  344 0038 01       		.byte	0x1
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
  398 006e 12       		.uleb128 0x12
  399 006f 06       		.uleb128 0x6
  400 0070 40       		.uleb128 0x40
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 10
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8Y1qCb.s 			page 10
 
 
  401 0071 18       		.uleb128 0x18
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
  455 00ab 0C       		.uleb128 0xc
  456 00ac 34       		.uleb128 0x34
  457 00ad 00       		.byte	0
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 11
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8Y1qCb.s 			page 11
 
 
  458 00ae 03       		.uleb128 0x3
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
  512 0008 00000000 		.4byte	.LFB1
  513 000c 02000000 		.4byte	.LFE1
  514 0010 00000000 		.4byte	.LFB2
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 12
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8Y1qCb.s 			page 12
 
 
  515 0014 18000000 		.4byte	.LFE2
@@ -692,85 +692,85 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
  530      645F536F 
  530      75726365 
  530      5C50536F 
- 531              	.LASF22:
- 532 0043 433A5C55 		.ascii	"C:\\Users\\tmj32\\Documents\\TCNJ\\Current Sem5\\Fi"
- 532      73657273 
- 532      5C746D6A 
- 532      33325C44 
- 532      6F63756D 
- 533 0070 6E616C70 		.ascii	"nalproj\\Workspace01\\Design01.cydsn\000"
- 533      726F6A5C 
- 533      576F726B 
- 533      73706163 
- 533      6530315C 
- 534              	.LASF9:
- 535 0093 666C6F61 		.ascii	"float\000"
- 535      7400
- 536              	.LASF14:
- 537 0099 4C43445F 		.ascii	"LCD_SaveConfig\000"
- 537      53617665 
- 537      436F6E66 
- 537      696700
- 538              	.LASF1:
- 539 00a8 756E7369 		.ascii	"unsigned char\000"
- 539      676E6564 
- 539      20636861 
- 539      7200
- 540              	.LASF20:
- 541 00b6 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 13
+ 531              	.LASF9:
+ 532 0043 666C6F61 		.ascii	"float\000"
+ 532      7400
+ 533              	.LASF14:
+ 534 0049 4C43445F 		.ascii	"LCD_SaveConfig\000"
+ 534      53617665 
+ 534      436F6E66 
+ 534      696700
+ 535              	.LASF1:
+ 536 0058 756E7369 		.ascii	"unsigned char\000"
+ 536      676E6564 
+ 536      20636861 
+ 536      7200
+ 537              	.LASF20:
+ 538 0066 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 538      43313120 
+ 538      352E342E 
+ 538      31203230 
+ 538      31363036 
+ 539 0099 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 539      20726576 
+ 539      6973696F 
+ 539      6E203233 
+ 539      37373135 
+ 540 00cc 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 540      66756E63 
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8Y1qCb.s 			page 13
 
 
- 541      43313120 
- 541      352E342E 
- 541      31203230 
- 541      31363036 
- 542 00e9 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 542      20726576 
- 542      6973696F 
- 542      6E203233 
- 542      37373135 
- 543 011c 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 543      66756E63 
- 543      74696F6E 
- 543      2D736563 
- 543      74696F6E 
- 544              	.LASF5:
- 545 0144 6C6F6E67 		.ascii	"long unsigned int\000"
- 545      20756E73 
- 545      69676E65 
- 545      6420696E 
- 545      7400
- 546              	.LASF3:
- 547 0156 73686F72 		.ascii	"short unsigned int\000"
- 547      7420756E 
- 547      7369676E 
- 547      65642069 
- 547      6E7400
- 548              	.LASF10:
- 549 0169 646F7562 		.ascii	"double\000"
- 549      6C6500
- 550              	.LASF19:
- 551 0170 4C43445F 		.ascii	"LCD_Enable\000"
- 551      456E6162 
- 551      6C6500
- 552              	.LASF15:
- 553 017b 4C43445F 		.ascii	"LCD_RestoreConfig\000"
- 553      52657374 
- 553      6F726543 
- 553      6F6E6669 
- 553      6700
- 554              	.LASF8:
- 555 018d 756E7369 		.ascii	"unsigned int\000"
- 555      676E6564 
- 555      20696E74 
- 555      00
- 556              	.LASF7:
- 557 019a 6C6F6E67 		.ascii	"long long unsigned int\000"
- 557      206C6F6E 
- 557      6720756E 
- 557      7369676E 
- 557      65642069 
+ 540      74696F6E 
+ 540      2D736563 
+ 540      74696F6E 
+ 541              	.LASF5:
+ 542 00f4 6C6F6E67 		.ascii	"long unsigned int\000"
+ 542      20756E73 
+ 542      69676E65 
+ 542      6420696E 
+ 542      7400
+ 543              	.LASF3:
+ 544 0106 73686F72 		.ascii	"short unsigned int\000"
+ 544      7420756E 
+ 544      7369676E 
+ 544      65642069 
+ 544      6E7400
+ 545              	.LASF10:
+ 546 0119 646F7562 		.ascii	"double\000"
+ 546      6C6500
+ 547              	.LASF19:
+ 548 0120 4C43445F 		.ascii	"LCD_Enable\000"
+ 548      456E6162 
+ 548      6C6500
+ 549              	.LASF15:
+ 550 012b 4C43445F 		.ascii	"LCD_RestoreConfig\000"
+ 550      52657374 
+ 550      6F726543 
+ 550      6F6E6669 
+ 550      6700
+ 551              	.LASF8:
+ 552 013d 756E7369 		.ascii	"unsigned int\000"
+ 552      676E6564 
+ 552      20696E74 
+ 552      00
+ 553              	.LASF7:
+ 554 014a 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 554      206C6F6E 
+ 554      6720756E 
+ 554      7369676E 
+ 554      65642069 
+ 555              	.LASF22:
+ 556 0161 433A5C55 		.ascii	"C:\\Users\\tmj32\\Desktop\\343Final\\PSOC_C_AlarmCl"
+ 556      73657273 
+ 556      5C746D6A 
+ 556      33325C44 
+ 556      65736B74 
+ 557 018f 6F636B55 		.ascii	"ockUsingInterrupts\\Design01.cydsn\000"
+ 557      73696E67 
+ 557      496E7465 
+ 557      72727570 
+ 557      74735C44 
  558              	.LASF6:
  559 01b1 6C6F6E67 		.ascii	"long long int\000"
  559      206C6F6E 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 1
  559      7400
  560              	.LASF11:
  561 01bf 63686172 		.ascii	"char\000"
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccRlSFHy.s 			page 14
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8Y1qCb.s 			page 14
 
 
  561      00

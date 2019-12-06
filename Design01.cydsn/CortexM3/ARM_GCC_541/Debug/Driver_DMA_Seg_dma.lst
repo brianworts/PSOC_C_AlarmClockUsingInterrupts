@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
   28:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c **** * The following defines are available in Cyfitter.h
   29:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c **** * 
   30:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c **** * 
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 2
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 2
 
 
   31:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c **** * 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
   85:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c **** *   UpperSrcAddress.
   86:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c **** *       
   87:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c **** *       
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 3
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 3
 
 
   88:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c **** *   UpperDestAddress.
@@ -153,7 +153,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  101:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c ****     Driver_DMA_Seg_DmaHandle = (uint8)Driver_DMA_Seg__DRQ_NUMBER;
   44              		.loc 1 101 0
   45 0008 0B4C     		ldr	r4, .L3
-  46 000a 0725     		movs	r5, #7
+  46 000a 0325     		movs	r5, #3
   47 000c 2570     		strb	r5, [r4]
  102:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c **** 
  103:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c ****     /* Configure the channel. */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  108:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c ****                                   (uint8)Driver_DMA_Seg__TERMOUT1_SEL,
  109:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c ****                                   (uint8)Driver_DMA_Seg__TERMIN_SEL);
  110:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c **** 
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 4
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 4
 
 
  111:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c ****     /* Set the extended address for the transfers */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  133:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c **** *   void.
  134:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c **** *
  135:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c **** *******************************************************************/
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 5
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 5
 
 
  136:Generated_Source\PSoC5/Driver_DMA_Seg_dma.c **** void Driver_DMA_Seg_DmaRelease(void) 
@@ -284,10 +284,10 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  130 0006 00000000 		.4byte	.Ldebug_abbrev0
  131 000a 04       		.byte	0x4
  132 000b 01       		.uleb128 0x1
- 133 000c D9000000 		.4byte	.LASF24
+ 133 000c 89000000 		.4byte	.LASF24
  134 0010 0C       		.byte	0xc
- 135 0011 91010000 		.4byte	.LASF25
- 136 0015 75000000 		.4byte	.LASF26
+ 135 0011 41010000 		.4byte	.LASF25
+ 136 0015 98010000 		.4byte	.LASF26
  137 0019 00000000 		.4byte	.Ldebug_ranges0+0
  138 001d 00000000 		.4byte	0
  139 0021 00000000 		.4byte	.Ldebug_line0
@@ -298,10 +298,10 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  144 002c 03       		.uleb128 0x3
  145 002d 04       		.byte	0x4
  146 002e 07       		.byte	0x7
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 6
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 6
 
 
- 147 002f C4010000 		.4byte	.LASF0
+ 147 002f 74010000 		.4byte	.LASF0
  148 0033 03       		.uleb128 0x3
  149 0034 08       		.byte	0x8
  150 0035 05       		.byte	0x5
@@ -317,7 +317,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  160 0048 03       		.uleb128 0x3
  161 0049 01       		.byte	0x1
  162 004a 08       		.byte	0x8
- 163 004b CB000000 		.4byte	.LASF4
+ 163 004b 7B000000 		.4byte	.LASF4
  164 004f 03       		.uleb128 0x3
  165 0050 02       		.byte	0x2
  166 0051 05       		.byte	0x5
@@ -333,11 +333,11 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  176 0064 03       		.uleb128 0x3
  177 0065 04       		.byte	0x4
  178 0066 07       		.byte	0x7
- 179 0067 72010000 		.4byte	.LASF8
+ 179 0067 22010000 		.4byte	.LASF8
  180 006b 03       		.uleb128 0x3
  181 006c 08       		.byte	0x8
  182 006d 07       		.byte	0x7
- 183 006e D1010000 		.4byte	.LASF9
+ 183 006e 81010000 		.4byte	.LASF9
  184 0072 03       		.uleb128 0x3
  185 0073 04       		.byte	0x4
  186 0074 07       		.byte	0x7
@@ -347,26 +347,26 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  190 007b 08       		.byte	0x8
  191 007c 2A020000 		.4byte	.LASF11
  192 0080 04       		.uleb128 0x4
- 193 0081 84010000 		.4byte	.LASF12
+ 193 0081 34010000 		.4byte	.LASF12
  194 0085 02       		.byte	0x2
  195 0086 E401     		.2byte	0x1e4
  196 0088 48000000 		.4byte	0x48
  197 008c 04       		.uleb128 0x4
- 198 008d BD010000 		.4byte	.LASF13
+ 198 008d 6D010000 		.4byte	.LASF13
  199 0091 02       		.byte	0x2
  200 0092 E501     		.2byte	0x1e5
  201 0094 56000000 		.4byte	0x56
  202 0098 03       		.uleb128 0x3
  203 0099 04       		.byte	0x4
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 7
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 7
 
 
  204 009a 04       		.byte	0x4
- 205 009b C5000000 		.4byte	.LASF14
+ 205 009b 75000000 		.4byte	.LASF14
  206 009f 03       		.uleb128 0x3
  207 00a0 08       		.byte	0x8
  208 00a1 04       		.byte	0x4
- 209 00a2 8A010000 		.4byte	.LASF15
+ 209 00a2 3A010000 		.4byte	.LASF15
  210 00a6 05       		.uleb128 0x5
  211 00a7 39020000 		.4byte	.LASF27
  212 00ab 01       		.byte	0x1
@@ -378,7 +378,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  218 00ba 9C       		.byte	0x9c
  219 00bb 4B010000 		.4byte	0x14b
  220 00bf 06       		.uleb128 0x6
- 221 00c0 67010000 		.4byte	.LASF16
+ 221 00c0 17010000 		.4byte	.LASF16
  222 00c4 01       		.byte	0x1
  223 00c5 61       		.byte	0x61
  224 00c6 80000000 		.4byte	0x80
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  258 0112 75       		.byte	0x75
  259 0113 00       		.sleb128 0
  260 0114 08       		.uleb128 0x8
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 8
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 8
 
 
  261 0115 02       		.uleb128 0x2
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  315 016f 01       		.byte	0x1
  316 0170 45       		.byte	0x45
  317 0171 80000000 		.4byte	0x80
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 9
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 9
 
 
  318 0175 05       		.uleb128 0x5
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  372 001c 00       		.byte	0
  373 001d 00       		.byte	0
  374 001e 03       		.uleb128 0x3
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 10
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 10
 
 
  375 001f 24       		.uleb128 0x24
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  429 0056 0E       		.uleb128 0xe
  430 0057 3A       		.uleb128 0x3a
  431 0058 0B       		.uleb128 0xb
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 11
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 11
 
 
  432 0059 3B       		.uleb128 0x3b
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  486 0096 40       		.uleb128 0x40
  487 0097 18       		.uleb128 0x18
  488 0098 9742     		.uleb128 0x2117
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 12
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 12
 
 
  489 009a 19       		.uleb128 0x19
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  543 0008 0100     		.2byte	0x1
  544 000a 50       		.byte	0x50
  545 000b 1C000000 		.4byte	.LVL4
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 13
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 13
 
 
  546 000f 3C000000 		.4byte	.LFE0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  600 000a 04       		.byte	0x4
  601 000b 00       		.byte	0
  602 000c 0000     		.2byte	0
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 14
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 14
 
 
  603 000e 0000     		.2byte	0
@@ -836,83 +836,83 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  632      4D415F53 
  632      65675F44 
  632      6D615265 
- 633              	.LASF26:
- 634 0075 433A5C55 		.ascii	"C:\\Users\\tmj32\\Documents\\TCNJ\\Current Sem5\\Fi"
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 15
+ 633              	.LASF14:
+ 634 0075 666C6F61 		.ascii	"float\000"
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 15
 
 
- 634      73657273 
- 634      5C746D6A 
- 634      33325C44 
- 634      6F63756D 
- 635 00a2 6E616C70 		.ascii	"nalproj\\Workspace01\\Design01.cydsn\000"
- 635      726F6A5C 
- 635      576F726B 
- 635      73706163 
- 635      6530315C 
- 636              	.LASF14:
- 637 00c5 666C6F61 		.ascii	"float\000"
- 637      7400
- 638              	.LASF4:
- 639 00cb 756E7369 		.ascii	"unsigned char\000"
- 639      676E6564 
- 639      20636861 
- 639      7200
- 640              	.LASF24:
- 641 00d9 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 641      43313120 
- 641      352E342E 
- 641      31203230 
- 641      31363036 
- 642 010c 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 642      20726576 
- 642      6973696F 
- 642      6E203233 
- 642      37373135 
- 643 013f 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 643      66756E63 
- 643      74696F6E 
- 643      2D736563 
- 643      74696F6E 
- 644              	.LASF16:
- 645 0167 42757273 		.ascii	"BurstCount\000"
- 645      74436F75 
- 645      6E7400
- 646              	.LASF8:
- 647 0172 6C6F6E67 		.ascii	"long unsigned int\000"
- 647      20756E73 
- 647      69676E65 
- 647      6420696E 
- 647      7400
- 648              	.LASF12:
- 649 0184 75696E74 		.ascii	"uint8\000"
- 649      3800
- 650              	.LASF15:
- 651 018a 646F7562 		.ascii	"double\000"
- 651      6C6500
- 652              	.LASF25:
- 653 0191 47656E65 		.ascii	"Generated_Source\\PSoC5\\Driver_DMA_Seg_dma.c\000"
- 653      72617465 
- 653      645F536F 
- 653      75726365 
- 653      5C50536F 
- 654              	.LASF13:
- 655 01bd 75696E74 		.ascii	"uint16\000"
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 16
+ 634      7400
+ 635              	.LASF4:
+ 636 007b 756E7369 		.ascii	"unsigned char\000"
+ 636      676E6564 
+ 636      20636861 
+ 636      7200
+ 637              	.LASF24:
+ 638 0089 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 638      43313120 
+ 638      352E342E 
+ 638      31203230 
+ 638      31363036 
+ 639 00bc 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 639      20726576 
+ 639      6973696F 
+ 639      6E203233 
+ 639      37373135 
+ 640 00ef 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 640      66756E63 
+ 640      74696F6E 
+ 640      2D736563 
+ 640      74696F6E 
+ 641              	.LASF16:
+ 642 0117 42757273 		.ascii	"BurstCount\000"
+ 642      74436F75 
+ 642      6E7400
+ 643              	.LASF8:
+ 644 0122 6C6F6E67 		.ascii	"long unsigned int\000"
+ 644      20756E73 
+ 644      69676E65 
+ 644      6420696E 
+ 644      7400
+ 645              	.LASF12:
+ 646 0134 75696E74 		.ascii	"uint8\000"
+ 646      3800
+ 647              	.LASF15:
+ 648 013a 646F7562 		.ascii	"double\000"
+ 648      6C6500
+ 649              	.LASF25:
+ 650 0141 47656E65 		.ascii	"Generated_Source\\PSoC5\\Driver_DMA_Seg_dma.c\000"
+ 650      72617465 
+ 650      645F536F 
+ 650      75726365 
+ 650      5C50536F 
+ 651              	.LASF13:
+ 652 016d 75696E74 		.ascii	"uint16\000"
+ 652      313600
+ 653              	.LASF0:
+ 654 0174 756E7369 		.ascii	"unsigned int\000"
+ 654      676E6564 
+ 654      20696E74 
+ 654      00
+ 655              	.LASF9:
+ 656 0181 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 656      206C6F6E 
+ 656      6720756E 
+ 656      7369676E 
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 16
 
 
- 655      313600
- 656              	.LASF0:
- 657 01c4 756E7369 		.ascii	"unsigned int\000"
- 657      676E6564 
- 657      20696E74 
- 657      00
- 658              	.LASF9:
- 659 01d1 6C6F6E67 		.ascii	"long long unsigned int\000"
- 659      206C6F6E 
- 659      6720756E 
- 659      7369676E 
- 659      65642069 
+ 656      65642069 
+ 657              	.LASF26:
+ 658 0198 433A5C55 		.ascii	"C:\\Users\\tmj32\\Desktop\\343Final\\PSOC_C_AlarmCl"
+ 658      73657273 
+ 658      5C746D6A 
+ 658      33325C44 
+ 658      65736B74 
+ 659 01c6 6F636B55 		.ascii	"ockUsingInterrupts\\Design01.cydsn\000"
+ 659      73696E67 
+ 659      496E7465 
+ 659      72727570 
+ 659      74735C44 
  660              	.LASF19:
  661 01e8 55707065 		.ascii	"UpperDestAddress\000"
  661      72446573 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 1
  678              	.LASF3:
  679 026b 7369676E 		.ascii	"signed char\000"
  679      65642063 
-ARM GAS  C:\Users\tmj32\AppData\Local\Temp\ccmh3Zge.s 			page 17
+ARM GAS  C:\Users\tmj32\AppData\Local\Temp\cc8BLUif.s 			page 17
 
 
  679      68617200 

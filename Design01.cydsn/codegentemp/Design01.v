@@ -1,6 +1,6 @@
 // ======================================================================
 // Design01.v generated from TopDesign.cysch
-// 12/05/2019 at 18:01
+// 12/05/2019 at 23:20
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -677,404 +677,122 @@ module LED_Driver_v1_10_2 (
 
 endmodule
 
-// LED_Driver_v1_10(BrightnessCtrl=0, ClkSource=0, CommonDrive=0, InternalClockFrequency=1000, NumCom=4, NumSeg=8, RefreshRate=250, SegmentDrive=0, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=LED_Driver_v1_10, CY_CONFIG_TITLE=Driver2, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=Driver2, CY_INSTANCE_SHORT_NAME=Driver2, CY_MAJOR_VERSION=1, CY_MINOR_VERSION=10, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.2, INSTANCE_NAME=Driver2, )
-module LED_Driver_v1_10_3 (
+// Component: B_PWM_v3_30
+`ifdef CY_BLK_DIR
+`undef CY_BLK_DIR
+`endif
+
+`ifdef WARP
+`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_PWM_v3_30"
+`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_PWM_v3_30\B_PWM_v3_30.v"
+`else
+`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_PWM_v3_30"
+`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_PWM_v3_30\B_PWM_v3_30.v"
+`endif
+
+// Component: OneTerminal
+`ifdef CY_BLK_DIR
+`undef CY_BLK_DIR
+`endif
+
+`ifdef WARP
+`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal"
+`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal\OneTerminal.v"
+`else
+`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal"
+`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal\OneTerminal.v"
+`endif
+
+// PWM_v3_30(CaptureMode=0, Clock_CheckTolerance=true, Clock_desired_freq=12, Clock_desired_freq_unit=6, Clock_divisor=1, Clock_FractDividerDenominator=0, Clock_FractDividerNumerator=0, Clock_FractDividerUsed=false, Clock_is_direct=false, Clock_is_divider=false, Clock_is_freq=true, Clock_minus_tolerance=5, Clock_ph_align_clock_id=, Clock_ph_align_clock_name=, Clock_plus_tolerance=5, Clock_source_clock_id=, Clock_source_clock_name=, Compare1_16=false, Compare1_8=true, Compare2_16=false, Compare2_8=false, CompareStatusEdgeSense=true, CompareType1=1, CompareType1Software=0, CompareType2=1, CompareType2Software=0, CompareValue1=25, CompareValue2=63, CONTROL3=0, ControlReg=true, CtlModeReplacementString=SyncCtl, CyGetRegReplacementString=CY_GET_REG8, CySetRegReplacementString=CY_SET_REG8, DeadBand=0, DeadBand2_4=0, DeadBand256=0, DeadBandUsed=0, DeadTime=1, DitherOffset=0, EnableMode=0, FF16=false, FF8=false, FixedFunction=false, FixedFunctionUsed=0, InterruptOnCMP1=false, InterruptOnCMP2=false, InterruptOnKill=false, InterruptOnTC=false, IntOnCMP1=0, IntOnCMP2=0, IntOnKill=0, IntOnTC=0, KillMode=0, KillModeMinTime=0, MinimumKillTime=1, OneCompare=true, Period=224, PWMMode=0, PWMModeCenterAligned=0, RegDefReplacementString=reg8, RegSizeReplacementString=uint8, Resolution=8, RstStatusReplacementString=sSTSReg_rstSts, RunMode=0, Status=true, TermMode_capture=0, TermMode_clock=0, TermMode_cmp_sel=0, TermMode_enable=0, TermMode_interrupt=0, TermMode_kill=0, TermMode_ph1=0, TermMode_ph2=0, TermMode_pwm=0, TermMode_pwm1=0, TermMode_pwm2=0, TermMode_reset=0, TermMode_tc=0, TermMode_trigger=0, TermVisibility_capture=false, TermVisibility_clock=true, TermVisibility_cmp_sel=false, TermVisibility_enable=false, TermVisibility_interrupt=true, TermVisibility_kill=false, TermVisibility_ph1=false, TermVisibility_ph2=false, TermVisibility_pwm=true, TermVisibility_pwm1=false, TermVisibility_pwm2=false, TermVisibility_reset=true, TermVisibility_tc=true, TermVisibility_trigger=false, TriggerMode=0, UDB16=false, UDB8=true, UseControl=true, UseInterrupt=true, UseStatus=true, VerilogSectionReplacementString=sP8, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=PWM_v3_30, CY_CONFIG_TITLE=PWM_1, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=PWM_1, CY_INSTANCE_SHORT_NAME=PWM_1, CY_MAJOR_VERSION=3, CY_MINOR_VERSION=30, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.2, INSTANCE_NAME=PWM_1, )
+module PWM_v3_30_3 (
+    reset,
     clock,
-    seg,
-    com);
+    tc,
+    pwm1,
+    pwm2,
+    interrupt,
+    capture,
+    kill,
+    enable,
+    trigger,
+    cmp_sel,
+    pwm,
+    ph1,
+    ph2);
+    input       reset;
     input       clock;
-    output     [23:0] seg;
-    output     [7:0] com;
+    output      tc;
+    output      pwm1;
+    output      pwm2;
+    output      interrupt;
+    input       capture;
+    input       kill;
+    input       enable;
+    input       trigger;
+    input       cmp_sel;
+    output      pwm;
+    output      ph1;
+    output      ph2;
 
+    parameter Resolution = 8;
 
-          wire  trigDMA;
-          wire [23:0] segments;
-          wire  Net_126;
-          wire [7:0] common;
-          wire  tc;
-          wire  Net_127;
-          wire  Net_123;
-          wire  Net_122;
-          wire  Net_121;
-          wire  Net_120;
-          wire  Net_119;
-          wire  Net_118;
-          wire  Net_117;
-          wire  Net_116;
-          wire  Net_115;
           wire  Net_114;
           wire  Net_113;
-          wire  Net_112;
-          wire  Net_111;
-          wire  Net_110;
-          wire  Net_109;
-          wire  Net_108;
           wire  Net_107;
-          wire  Net_106;
-          wire  Net_105;
-          wire  Net_104;
-          wire  Net_103;
-          wire  Net_102;
-          wire  Net_101;
-          wire  Net_100;
-          wire  Net_99;
-          wire  Net_98;
-          wire  Net_97;
           wire  Net_96;
-          wire  Net_95;
-          wire  Net_94;
-          wire  Net_93;
-          wire  Net_92;
-          wire  Net_91;
-          wire  Net_90;
-          wire  Net_89;
-          wire  Net_88;
-          wire  Net_87;
-          wire  Net_86;
-          wire  Net_85;
-          wire  Net_84;
-          wire  Net_83;
-          wire  Net_82;
-          wire  Net_81;
-          wire  Net_80;
-          wire  Net_79;
-          wire  Net_78;
-          wire  Net_77;
-          wire  Net_48;
-          wire  Net_124;
-          wire  Net_1332;
-          wire  Net_1418;
-          wire  Net_1405;
-          wire  Net_1416;
-          wire  Net_856;
-          wire  Net_1352;
-          wire  Net_1501;
-          wire  Net_855;
-
-
-	cy_clock_v1_0
-		#(.id("a9b907bd-e2f8-4bc0-ba67-034865d75e8c/5b34848d-bc4e-4754-bf65-dcda7ecc1385"),
-		  .source_clock_id(""),
-		  .divisor(0),
-		  .period("1000000000000"),
-		  .is_direct(0),
-		  .is_digital(1))
-		ClkInternal
-		 (.clock_out(Net_1501));
-
-
-	// VirtualMux_1 (cy_virtualmux_v1_0)
-	assign Net_855 = Net_1501;
-
-	// VirtualMux_2 (cy_virtualmux_v1_0)
-	assign trigDMA = Net_855;
-
-
-    assign Net_79 = Net_78 | Net_1501;
-
-    ZeroTerminal ZeroTerminal_7 (
-        .z(Net_78));
-
-    CyControlReg_v1_80 Seg_Driver_L (
-        .control_1(Net_80),
-        .control_2(Net_81),
-        .control_3(Net_82),
-        .control_0(Net_83),
-        .control_4(Net_84),
-        .control_5(Net_85),
-        .control_6(Net_86),
-        .control_7(Net_87),
-        .clock(1'b0),
-        .reset(1'b0),
-        .control_bus(segments[7:0]));
-    defparam Seg_Driver_L.Bit0Mode = 0;
-    defparam Seg_Driver_L.Bit1Mode = 0;
-    defparam Seg_Driver_L.Bit2Mode = 0;
-    defparam Seg_Driver_L.Bit3Mode = 0;
-    defparam Seg_Driver_L.Bit4Mode = 0;
-    defparam Seg_Driver_L.Bit5Mode = 0;
-    defparam Seg_Driver_L.Bit6Mode = 0;
-    defparam Seg_Driver_L.Bit7Mode = 0;
-    defparam Seg_Driver_L.BitValue = 0;
-    defparam Seg_Driver_L.BusDisplay = 1;
-    defparam Seg_Driver_L.ExtrReset = 0;
-    defparam Seg_Driver_L.NumOutputs = 8;
-
-    CyControlReg_v1_80 Com_Driver (
-        .control_1(Net_90),
-        .control_2(Net_91),
-        .control_3(Net_92),
-        .control_0(Net_93),
-        .control_4(Net_94),
-        .control_5(Net_95),
-        .control_6(Net_96),
-        .control_7(Net_97),
-        .clock(1'b0),
-        .reset(1'b0),
-        .control_bus(common[7:0]));
-    defparam Com_Driver.Bit0Mode = 0;
-    defparam Com_Driver.Bit1Mode = 0;
-    defparam Com_Driver.Bit2Mode = 0;
-    defparam Com_Driver.Bit3Mode = 0;
-    defparam Com_Driver.Bit4Mode = 0;
-    defparam Com_Driver.Bit5Mode = 0;
-    defparam Com_Driver.Bit6Mode = 0;
-    defparam Com_Driver.Bit7Mode = 0;
-    defparam Com_Driver.BitValue = 0;
-    defparam Com_Driver.BusDisplay = 1;
-    defparam Com_Driver.ExtrReset = 0;
-    defparam Com_Driver.NumOutputs = 8;
-
-
-	cy_dma_v1_0
-		#(.drq_type(2'b00))
-		DMA_Com
-		 (.drq(Net_1332),
-		  .trq(1'b0),
-		  .nrq(Net_1405));
-
-
-
-	cy_dma_v1_0
-		#(.drq_type(2'b00))
-		DMA_Seg
-		 (.drq(Net_1418),
-		  .trq(1'b0),
-		  .nrq(Net_1352));
-
-
-	// VirtualMux_4 (cy_virtualmux_v1_0)
-	assign Net_1416 = trigDMA;
-
-
-    assign Net_1332 = Net_1416 ^ Net_1352;
-
-	// VirtualMux_5 (cy_virtualmux_v1_0)
-	assign Net_1418 = Net_1405;
-
-
-    assign Net_127 = Net_124 | Net_48;
-
-    ZeroTerminal ZeroTerminal_3 (
-        .z(Net_124));
-
-
-	cy_clock_v1_0
-		#(.id("a9b907bd-e2f8-4bc0-ba67-034865d75e8c/16079296-677d-4c97-a0f1-fd79fcfb8c33"),
-		  .source_clock_id("75C2148C-3656-4d8a-846D-0CAE99AB6FF7"),
-		  .divisor(0),
-		  .period("0"),
-		  .is_direct(1),
-		  .is_digital(1))
-		BUS_CLK
-		 (.clock_out(Net_48));
-
-
-
-    assign seg = segments[23:0];
-
-    assign com = common[7:0];
-
-
-endmodule
-
-// LED_Driver_v1_10(BrightnessCtrl=0, ClkSource=0, CommonDrive=0, InternalClockFrequency=1000, NumCom=4, NumSeg=8, RefreshRate=250, SegmentDrive=0, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=LED_Driver_v1_10, CY_CONFIG_TITLE=Driver3, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=Driver3, CY_INSTANCE_SHORT_NAME=Driver3, CY_MAJOR_VERSION=1, CY_MINOR_VERSION=10, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.2, INSTANCE_NAME=Driver3, )
-module LED_Driver_v1_10_4 (
-    clock,
-    seg,
-    com);
-    input       clock;
-    output     [23:0] seg;
-    output     [7:0] com;
-
-
-          wire  trigDMA;
-          wire [23:0] segments;
-          wire  Net_126;
-          wire [7:0] common;
-          wire  tc;
-          wire  Net_127;
-          wire  Net_123;
-          wire  Net_122;
-          wire  Net_121;
-          wire  Net_120;
-          wire  Net_119;
-          wire  Net_118;
-          wire  Net_117;
-          wire  Net_116;
-          wire  Net_115;
-          wire  Net_114;
-          wire  Net_113;
-          wire  Net_112;
-          wire  Net_111;
-          wire  Net_110;
-          wire  Net_109;
-          wire  Net_108;
-          wire  Net_107;
-          wire  Net_106;
-          wire  Net_105;
-          wire  Net_104;
-          wire  Net_103;
-          wire  Net_102;
+          wire  Net_55;
+          wire  Net_57;
           wire  Net_101;
-          wire  Net_100;
-          wire  Net_99;
-          wire  Net_98;
-          wire  Net_97;
-          wire  Net_96;
-          wire  Net_95;
-          wire  Net_94;
-          wire  Net_93;
-          wire  Net_92;
-          wire  Net_91;
-          wire  Net_90;
-          wire  Net_89;
-          wire  Net_88;
-          wire  Net_87;
-          wire  Net_86;
-          wire  Net_85;
-          wire  Net_84;
-          wire  Net_83;
-          wire  Net_82;
-          wire  Net_81;
-          wire  Net_80;
-          wire  Net_79;
-          wire  Net_78;
-          wire  Net_77;
-          wire  Net_48;
-          wire  Net_124;
-          wire  Net_1332;
-          wire  Net_1418;
-          wire  Net_1405;
-          wire  Net_1416;
-          wire  Net_856;
-          wire  Net_1352;
-          wire  Net_1501;
-          wire  Net_855;
+          wire  Net_54;
+          wire  Net_63;
 
+    B_PWM_v3_30 PWMUDB (
+        .reset(reset),
+        .clock(clock),
+        .tc(Net_101),
+        .pwm1(pwm1),
+        .pwm2(pwm2),
+        .interrupt(Net_55),
+        .kill(kill),
+        .capture(capture),
+        .enable(enable),
+        .cmp_sel(cmp_sel),
+        .trigger(trigger),
+        .pwm(Net_96),
+        .ph1(ph1),
+        .ph2(ph2));
+    defparam PWMUDB.CaptureMode = 0;
+    defparam PWMUDB.CompareStatusEdgeSense = 1;
+    defparam PWMUDB.CompareType1 = 1;
+    defparam PWMUDB.CompareType2 = 1;
+    defparam PWMUDB.DeadBand = 0;
+    defparam PWMUDB.DitherOffset = 0;
+    defparam PWMUDB.EnableMode = 0;
+    defparam PWMUDB.KillMode = 0;
+    defparam PWMUDB.PWMMode = 0;
+    defparam PWMUDB.Resolution = 8;
+    defparam PWMUDB.RunMode = 0;
+    defparam PWMUDB.TriggerMode = 0;
+    defparam PWMUDB.UseStatus = 1;
 
-	cy_clock_v1_0
-		#(.id("506547ee-3757-46f6-9e41-5f8e3016e4fc/5b34848d-bc4e-4754-bf65-dcda7ecc1385"),
-		  .source_clock_id(""),
-		  .divisor(0),
-		  .period("1000000000000"),
-		  .is_direct(0),
-		  .is_digital(1))
-		ClkInternal
-		 (.clock_out(Net_1501));
+	// vmCompare (cy_virtualmux_v1_0)
+	assign pwm = Net_96;
 
+	// vmIRQ (cy_virtualmux_v1_0)
+	assign interrupt = Net_55;
 
-	// VirtualMux_1 (cy_virtualmux_v1_0)
-	assign Net_855 = Net_1501;
+	// vmTC (cy_virtualmux_v1_0)
+	assign tc = Net_101;
 
-	// VirtualMux_2 (cy_virtualmux_v1_0)
-	assign trigDMA = Net_855;
+    OneTerminal OneTerminal_1 (
+        .o(Net_113));
 
+	// FFKillMux (cy_virtualmux_v1_0)
+	assign Net_107 = Net_114;
 
-    assign Net_79 = Net_78 | Net_1501;
+    ZeroTerminal ZeroTerminal_1 (
+        .z(Net_114));
 
-    ZeroTerminal ZeroTerminal_7 (
-        .z(Net_78));
-
-    CyControlReg_v1_80 Seg_Driver_L (
-        .control_1(Net_80),
-        .control_2(Net_81),
-        .control_3(Net_82),
-        .control_0(Net_83),
-        .control_4(Net_84),
-        .control_5(Net_85),
-        .control_6(Net_86),
-        .control_7(Net_87),
-        .clock(1'b0),
-        .reset(1'b0),
-        .control_bus(segments[7:0]));
-    defparam Seg_Driver_L.Bit0Mode = 0;
-    defparam Seg_Driver_L.Bit1Mode = 0;
-    defparam Seg_Driver_L.Bit2Mode = 0;
-    defparam Seg_Driver_L.Bit3Mode = 0;
-    defparam Seg_Driver_L.Bit4Mode = 0;
-    defparam Seg_Driver_L.Bit5Mode = 0;
-    defparam Seg_Driver_L.Bit6Mode = 0;
-    defparam Seg_Driver_L.Bit7Mode = 0;
-    defparam Seg_Driver_L.BitValue = 0;
-    defparam Seg_Driver_L.BusDisplay = 1;
-    defparam Seg_Driver_L.ExtrReset = 0;
-    defparam Seg_Driver_L.NumOutputs = 8;
-
-    CyControlReg_v1_80 Com_Driver (
-        .control_1(Net_90),
-        .control_2(Net_91),
-        .control_3(Net_92),
-        .control_0(Net_93),
-        .control_4(Net_94),
-        .control_5(Net_95),
-        .control_6(Net_96),
-        .control_7(Net_97),
-        .clock(1'b0),
-        .reset(1'b0),
-        .control_bus(common[7:0]));
-    defparam Com_Driver.Bit0Mode = 0;
-    defparam Com_Driver.Bit1Mode = 0;
-    defparam Com_Driver.Bit2Mode = 0;
-    defparam Com_Driver.Bit3Mode = 0;
-    defparam Com_Driver.Bit4Mode = 0;
-    defparam Com_Driver.Bit5Mode = 0;
-    defparam Com_Driver.Bit6Mode = 0;
-    defparam Com_Driver.Bit7Mode = 0;
-    defparam Com_Driver.BitValue = 0;
-    defparam Com_Driver.BusDisplay = 1;
-    defparam Com_Driver.ExtrReset = 0;
-    defparam Com_Driver.NumOutputs = 8;
-
-
-	cy_dma_v1_0
-		#(.drq_type(2'b00))
-		DMA_Com
-		 (.drq(Net_1332),
-		  .trq(1'b0),
-		  .nrq(Net_1405));
-
-
-
-	cy_dma_v1_0
-		#(.drq_type(2'b00))
-		DMA_Seg
-		 (.drq(Net_1418),
-		  .trq(1'b0),
-		  .nrq(Net_1352));
-
-
-	// VirtualMux_4 (cy_virtualmux_v1_0)
-	assign Net_1416 = trigDMA;
-
-
-    assign Net_1332 = Net_1416 ^ Net_1352;
-
-	// VirtualMux_5 (cy_virtualmux_v1_0)
-	assign Net_1418 = Net_1405;
-
-
-    assign Net_127 = Net_124 | Net_48;
-
-    ZeroTerminal ZeroTerminal_3 (
-        .z(Net_124));
-
-
-	cy_clock_v1_0
-		#(.id("506547ee-3757-46f6-9e41-5f8e3016e4fc/16079296-677d-4c97-a0f1-fd79fcfb8c33"),
-		  .source_clock_id("75C2148C-3656-4d8a-846D-0CAE99AB6FF7"),
-		  .divisor(0),
-		  .period("0"),
-		  .is_direct(1),
-		  .is_digital(1))
-		BUS_CLK
-		 (.clock_out(Net_48));
-
-
-
-    assign seg = segments[23:0];
-
-    assign com = common[7:0];
 
 
 endmodule
@@ -1082,12 +800,20 @@ endmodule
 // top
 module top ;
 
-          wire [3:0] Net_44;
-          wire [7:0] Net_43;
-          wire  Net_42;
-          wire [3:0] Net_41;
-          wire [7:0] Net_40;
-          wire  Net_39;
+          wire  Net_517;
+          wire  Net_530;
+          wire  Net_529;
+          wire  Net_528;
+          wire  Net_527;
+          wire  Net_526;
+          wire  Net_525;
+          wire  Net_524;
+          wire  Net_523;
+          wire  Net_522;
+          wire  Net_521;
+          wire  Net_520;
+          wire  Net_504;
+          wire  Net_518;
           wire [3:0] Net_38;
           wire [7:0] Net_37;
           wire  Net_36;
@@ -1095,88 +821,14 @@ module top ;
           wire [3:0] Net_31;
           wire [7:0] Net_30;
           wire  Net_29;
-          wire  Net_27;
+          wire  Net_519;
+
+    CharLCD_v2_20_0 LCD ();
 
 	wire [0:0] tmpOE__SW_net;
 	wire [0:0] tmpIO_0__SW_net;
 	wire [0:0] tmpINTERRUPT_0__SW_net;
 	electrical [0:0] tmpSIOVREF__SW_net;
-
-	cy_psoc3_pins_v1_10
-		#(.id("8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba"),
-		  .drive_mode(3'b010),
-		  .ibuf_enabled(1'b1),
-		  .init_dr_st(1'b1),
-		  .input_clk_en(0),
-		  .input_sync(1'b0),
-		  .input_sync_mode(1'b0),
-		  .intr_mode(2'b00),
-		  .invert_in_clock(0),
-		  .invert_in_clock_en(0),
-		  .invert_in_reset(0),
-		  .invert_out_clock(0),
-		  .invert_out_clock_en(0),
-		  .invert_out_reset(0),
-		  .io_voltage(""),
-		  .layout_mode("CONTIGUOUS"),
-		  .oe_conn(1'b0),
-		  .oe_reset(0),
-		  .oe_sync(1'b0),
-		  .output_clk_en(0),
-		  .output_clock_mode(1'b0),
-		  .output_conn(1'b0),
-		  .output_mode(1'b0),
-		  .output_reset(0),
-		  .output_sync(1'b0),
-		  .pa_in_clock(-1),
-		  .pa_in_clock_en(-1),
-		  .pa_in_reset(-1),
-		  .pa_out_clock(-1),
-		  .pa_out_clock_en(-1),
-		  .pa_out_reset(-1),
-		  .pin_aliases(""),
-		  .pin_mode("I"),
-		  .por_state(4),
-		  .sio_group_cnt(0),
-		  .sio_hyst(1'b1),
-		  .sio_ibuf(""),
-		  .sio_info(2'b00),
-		  .sio_obuf(""),
-		  .sio_refsel(""),
-		  .sio_vtrip(""),
-		  .sio_hifreq(""),
-		  .sio_vohsel(""),
-		  .slew_rate(1'b0),
-		  .spanning(0),
-		  .use_annotation(1'b0),
-		  .vtrip(2'b00),
-		  .width(1),
-		  .ovt_hyst_trim(1'b0),
-		  .ovt_needed(1'b0),
-		  .ovt_slew_control(2'b00),
-		  .input_buffer_sel(2'b00))
-		SW
-		 (.oe(tmpOE__SW_net),
-		  .y({1'b0}),
-		  .fb({Net_27}),
-		  .io({tmpIO_0__SW_net[0:0]}),
-		  .siovref(tmpSIOVREF__SW_net),
-		  .interrupt({tmpINTERRUPT_0__SW_net[0:0]}),
-		  .in_clock({1'b0}),
-		  .in_clock_en({1'b1}),
-		  .in_reset({1'b0}),
-		  .out_clock({1'b0}),
-		  .out_clock_en({1'b1}),
-		  .out_reset({1'b0}));
-
-	assign tmpOE__SW_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
-
-    CharLCD_v2_20_0 LCD ();
-
-	wire [0:0] tmpOE__SW2_net;
-	wire [0:0] tmpIO_0__SW2_net;
-	wire [0:0] tmpINTERRUPT_0__SW2_net;
-	electrical [0:0] tmpSIOVREF__SW2_net;
 
 	cy_psoc3_pins_v1_10
 		#(.id("7cc91734-4e7c-418b-87f7-c9bc153749b0"),
@@ -1231,13 +883,13 @@ module top ;
 		  .ovt_needed(1'b0),
 		  .ovt_slew_control(2'b00),
 		  .input_buffer_sel(2'b00))
-		SW2
-		 (.oe(tmpOE__SW2_net),
+		SW
+		 (.oe(tmpOE__SW_net),
 		  .y({1'b0}),
 		  .fb({Net_29}),
-		  .io({tmpIO_0__SW2_net[0:0]}),
-		  .siovref(tmpSIOVREF__SW2_net),
-		  .interrupt({tmpINTERRUPT_0__SW2_net[0:0]}),
+		  .io({tmpIO_0__SW_net[0:0]}),
+		  .siovref(tmpSIOVREF__SW_net),
+		  .interrupt({tmpINTERRUPT_0__SW_net[0:0]}),
 		  .in_clock({1'b0}),
 		  .in_clock_en({1'b1}),
 		  .in_reset({1'b0}),
@@ -1245,7 +897,7 @@ module top ;
 		  .out_clock_en({1'b1}),
 		  .out_reset({1'b0}));
 
-	assign tmpOE__SW2_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
+	assign tmpOE__SW_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
 
 	wire [7:0] tmpOE__Seg_net;
 	wire [7:0] tmpFB_7__Seg_net;
@@ -1407,16 +1059,6 @@ module top ;
         .seg(Net_37[7:0]),
         .com(Net_38[3:0]));
 
-    LED_Driver_v1_10_3 Driver2 (
-        .clock(1'b0),
-        .seg(Net_40[7:0]),
-        .com(Net_41[3:0]));
-
-    LED_Driver_v1_10_4 Driver3 (
-        .clock(1'b0),
-        .seg(Net_43[7:0]),
-        .com(Net_44[3:0]));
-
 	wire [7:0] tmpOE__Seg_1_net;
 	wire [7:0] tmpFB_7__Seg_1_net;
 	wire [7:0] tmpIO_7__Seg_1_net;
@@ -1491,156 +1133,6 @@ module top ;
 		  .out_reset({1'b0}));
 
 	assign tmpOE__Seg_1_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{8'b11111111} : {8'b11111111};
-
-	wire [7:0] tmpOE__Seg_2_net;
-	wire [7:0] tmpFB_7__Seg_2_net;
-	wire [7:0] tmpIO_7__Seg_2_net;
-	wire [0:0] tmpINTERRUPT_0__Seg_2_net;
-	electrical [0:0] tmpSIOVREF__Seg_2_net;
-
-	cy_psoc3_pins_v1_10
-		#(.id("d2438191-5e56-4e22-bdc6-ab7d19025964"),
-		  .drive_mode(24'b110_110_110_110_110_110_110_110),
-		  .ibuf_enabled(8'b1_1_1_1_1_1_1_1),
-		  .init_dr_st(8'b0_0_0_0_0_0_0_0),
-		  .input_clk_en(0),
-		  .input_sync(8'b1_1_1_1_1_1_1_1),
-		  .input_sync_mode(8'b0_0_0_0_0_0_0_0),
-		  .intr_mode(16'b00_00_00_00_00_00_00_00),
-		  .invert_in_clock(0),
-		  .invert_in_clock_en(0),
-		  .invert_in_reset(0),
-		  .invert_out_clock(0),
-		  .invert_out_clock_en(0),
-		  .invert_out_reset(0),
-		  .io_voltage(",,,,,,,"),
-		  .layout_mode("NONCONTIGUOUS"),
-		  .oe_conn(8'b0_0_0_0_0_0_0_0),
-		  .oe_reset(0),
-		  .oe_sync(8'b0_0_0_0_0_0_0_0),
-		  .output_clk_en(0),
-		  .output_clock_mode(8'b0_0_0_0_0_0_0_0),
-		  .output_conn(8'b1_1_1_1_1_1_1_1),
-		  .output_mode(8'b0_0_0_0_0_0_0_0),
-		  .output_reset(0),
-		  .output_sync(8'b0_0_0_0_0_0_0_0),
-		  .pa_in_clock(-1),
-		  .pa_in_clock_en(-1),
-		  .pa_in_reset(-1),
-		  .pa_out_clock(-1),
-		  .pa_out_clock_en(-1),
-		  .pa_out_reset(-1),
-		  .pin_aliases(",,,,,,,"),
-		  .pin_mode("OOOOOOOO"),
-		  .por_state(4),
-		  .sio_group_cnt(0),
-		  .sio_hyst(8'b1_1_1_1_1_1_1_1),
-		  .sio_ibuf(""),
-		  .sio_info(16'b00_00_00_00_00_00_00_00),
-		  .sio_obuf(""),
-		  .sio_refsel(""),
-		  .sio_vtrip(""),
-		  .sio_hifreq(""),
-		  .sio_vohsel(""),
-		  .slew_rate(8'b0_0_0_0_0_0_0_0),
-		  .spanning(1),
-		  .use_annotation(8'b0_0_0_0_0_0_0_0),
-		  .vtrip(16'b10_10_10_10_10_10_10_10),
-		  .width(8),
-		  .ovt_hyst_trim(8'b0_0_0_0_0_0_0_0),
-		  .ovt_needed(8'b0_0_0_0_0_0_0_0),
-		  .ovt_slew_control(16'b00_00_00_00_00_00_00_00),
-		  .input_buffer_sel(16'b00_00_00_00_00_00_00_00))
-		Seg_2
-		 (.oe(tmpOE__Seg_2_net),
-		  .y({Net_40[7:0]}),
-		  .fb({tmpFB_7__Seg_2_net[7:0]}),
-		  .io({tmpIO_7__Seg_2_net[7:0]}),
-		  .siovref(tmpSIOVREF__Seg_2_net),
-		  .interrupt({tmpINTERRUPT_0__Seg_2_net[0:0]}),
-		  .in_clock({1'b0}),
-		  .in_clock_en({1'b1}),
-		  .in_reset({1'b0}),
-		  .out_clock({1'b0}),
-		  .out_clock_en({1'b1}),
-		  .out_reset({1'b0}));
-
-	assign tmpOE__Seg_2_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{8'b11111111} : {8'b11111111};
-
-	wire [7:0] tmpOE__Seg_3_net;
-	wire [7:0] tmpFB_7__Seg_3_net;
-	wire [7:0] tmpIO_7__Seg_3_net;
-	wire [0:0] tmpINTERRUPT_0__Seg_3_net;
-	electrical [0:0] tmpSIOVREF__Seg_3_net;
-
-	cy_psoc3_pins_v1_10
-		#(.id("a5770c1a-9a09-49fe-b03c-be1f66e7a411"),
-		  .drive_mode(24'b110_110_110_110_110_110_110_110),
-		  .ibuf_enabled(8'b1_1_1_1_1_1_1_1),
-		  .init_dr_st(8'b0_0_0_0_0_0_0_0),
-		  .input_clk_en(0),
-		  .input_sync(8'b1_1_1_1_1_1_1_1),
-		  .input_sync_mode(8'b0_0_0_0_0_0_0_0),
-		  .intr_mode(16'b00_00_00_00_00_00_00_00),
-		  .invert_in_clock(0),
-		  .invert_in_clock_en(0),
-		  .invert_in_reset(0),
-		  .invert_out_clock(0),
-		  .invert_out_clock_en(0),
-		  .invert_out_reset(0),
-		  .io_voltage(",,,,,,,"),
-		  .layout_mode("NONCONTIGUOUS"),
-		  .oe_conn(8'b0_0_0_0_0_0_0_0),
-		  .oe_reset(0),
-		  .oe_sync(8'b0_0_0_0_0_0_0_0),
-		  .output_clk_en(0),
-		  .output_clock_mode(8'b0_0_0_0_0_0_0_0),
-		  .output_conn(8'b1_1_1_1_1_1_1_1),
-		  .output_mode(8'b0_0_0_0_0_0_0_0),
-		  .output_reset(0),
-		  .output_sync(8'b0_0_0_0_0_0_0_0),
-		  .pa_in_clock(-1),
-		  .pa_in_clock_en(-1),
-		  .pa_in_reset(-1),
-		  .pa_out_clock(-1),
-		  .pa_out_clock_en(-1),
-		  .pa_out_reset(-1),
-		  .pin_aliases(",,,,,,,"),
-		  .pin_mode("OOOOOOOO"),
-		  .por_state(4),
-		  .sio_group_cnt(0),
-		  .sio_hyst(8'b1_1_1_1_1_1_1_1),
-		  .sio_ibuf(""),
-		  .sio_info(16'b00_00_00_00_00_00_00_00),
-		  .sio_obuf(""),
-		  .sio_refsel(""),
-		  .sio_vtrip(""),
-		  .sio_hifreq(""),
-		  .sio_vohsel(""),
-		  .slew_rate(8'b0_0_0_0_0_0_0_0),
-		  .spanning(1),
-		  .use_annotation(8'b0_0_0_0_0_0_0_0),
-		  .vtrip(16'b10_10_10_10_10_10_10_10),
-		  .width(8),
-		  .ovt_hyst_trim(8'b0_0_0_0_0_0_0_0),
-		  .ovt_needed(8'b0_0_0_0_0_0_0_0),
-		  .ovt_slew_control(16'b00_00_00_00_00_00_00_00),
-		  .input_buffer_sel(16'b00_00_00_00_00_00_00_00))
-		Seg_3
-		 (.oe(tmpOE__Seg_3_net),
-		  .y({Net_43[7:0]}),
-		  .fb({tmpFB_7__Seg_3_net[7:0]}),
-		  .io({tmpIO_7__Seg_3_net[7:0]}),
-		  .siovref(tmpSIOVREF__Seg_3_net),
-		  .interrupt({tmpINTERRUPT_0__Seg_3_net[0:0]}),
-		  .in_clock({1'b0}),
-		  .in_clock_en({1'b1}),
-		  .in_reset({1'b0}),
-		  .out_clock({1'b0}),
-		  .out_clock_en({1'b1}),
-		  .out_reset({1'b0}));
-
-	assign tmpOE__Seg_3_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{8'b11111111} : {8'b11111111};
 
 	wire [3:0] tmpOE__Com_1_net;
 	wire [3:0] tmpFB_3__Com_1_net;
@@ -1717,72 +1209,101 @@ module top ;
 
 	assign tmpOE__Com_1_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{4'b1111} : {4'b1111};
 
-	wire [3:0] tmpOE__Com_2_net;
-	wire [3:0] tmpFB_3__Com_2_net;
-	wire [3:0] tmpIO_3__Com_2_net;
-	wire [0:0] tmpINTERRUPT_0__Com_2_net;
-	electrical [0:0] tmpSIOVREF__Com_2_net;
+    PWM_v3_30_3 PWM_1 (
+        .reset(1'b0),
+        .clock(Net_504),
+        .tc(Net_519),
+        .pwm1(Net_520),
+        .pwm2(Net_521),
+        .interrupt(Net_522),
+        .capture(1'b0),
+        .kill(1'b1),
+        .enable(1'b1),
+        .trigger(1'b0),
+        .cmp_sel(1'b0),
+        .pwm(Net_528),
+        .ph1(Net_529),
+        .ph2(Net_530));
+    defparam PWM_1.Resolution = 8;
+
+
+	cy_clock_v1_0
+		#(.id("f6bf79b9-d858-4a9e-80a4-b129bf061ed2"),
+		  .source_clock_id(""),
+		  .divisor(0),
+		  .period("100000000000"),
+		  .is_direct(0),
+		  .is_digital(1))
+		Clock_1
+		 (.clock_out(Net_504));
+
+
+	wire [0:0] tmpOE__Pin_1_net;
+	wire [0:0] tmpFB_0__Pin_1_net;
+	wire [0:0] tmpIO_0__Pin_1_net;
+	wire [0:0] tmpINTERRUPT_0__Pin_1_net;
+	electrical [0:0] tmpSIOVREF__Pin_1_net;
 
 	cy_psoc3_pins_v1_10
-		#(.id("b7df8db0-d600-48da-9645-2dda102d5c4d"),
-		  .drive_mode(12'b110_110_110_110),
-		  .ibuf_enabled(4'b1_1_1_1),
-		  .init_dr_st(4'b0_0_0_0),
+		#(.id("2ba8927c-bea1-4b08-b123-d49d50d1cef3"),
+		  .drive_mode(3'b110),
+		  .ibuf_enabled(1'b1),
+		  .init_dr_st(1'b0),
 		  .input_clk_en(0),
-		  .input_sync(4'b1_1_1_1),
-		  .input_sync_mode(4'b0_0_0_0),
-		  .intr_mode(8'b00_00_00_00),
+		  .input_sync(1'b1),
+		  .input_sync_mode(1'b0),
+		  .intr_mode(2'b00),
 		  .invert_in_clock(0),
 		  .invert_in_clock_en(0),
 		  .invert_in_reset(0),
 		  .invert_out_clock(0),
 		  .invert_out_clock_en(0),
 		  .invert_out_reset(0),
-		  .io_voltage(",,,"),
-		  .layout_mode("NONCONTIGUOUS"),
-		  .oe_conn(4'b0_0_0_0),
+		  .io_voltage(""),
+		  .layout_mode("CONTIGUOUS"),
+		  .oe_conn(1'b0),
 		  .oe_reset(0),
-		  .oe_sync(4'b0_0_0_0),
+		  .oe_sync(1'b0),
 		  .output_clk_en(0),
-		  .output_clock_mode(4'b0_0_0_0),
-		  .output_conn(4'b1_1_1_1),
-		  .output_mode(4'b0_0_0_0),
+		  .output_clock_mode(1'b0),
+		  .output_conn(1'b1),
+		  .output_mode(1'b0),
 		  .output_reset(0),
-		  .output_sync(4'b0_0_0_0),
+		  .output_sync(1'b0),
 		  .pa_in_clock(-1),
 		  .pa_in_clock_en(-1),
 		  .pa_in_reset(-1),
 		  .pa_out_clock(-1),
 		  .pa_out_clock_en(-1),
 		  .pa_out_reset(-1),
-		  .pin_aliases(",,,"),
-		  .pin_mode("OOOO"),
+		  .pin_aliases(""),
+		  .pin_mode("O"),
 		  .por_state(4),
 		  .sio_group_cnt(0),
-		  .sio_hyst(4'b1_1_1_1),
+		  .sio_hyst(1'b1),
 		  .sio_ibuf(""),
-		  .sio_info(8'b00_00_00_00),
+		  .sio_info(2'b00),
 		  .sio_obuf(""),
 		  .sio_refsel(""),
 		  .sio_vtrip(""),
 		  .sio_hifreq(""),
 		  .sio_vohsel(""),
-		  .slew_rate(4'b0_0_0_0),
-		  .spanning(1),
-		  .use_annotation(4'b0_0_0_0),
-		  .vtrip(8'b10_10_10_10),
-		  .width(4),
-		  .ovt_hyst_trim(4'b0_0_0_0),
-		  .ovt_needed(4'b0_0_0_0),
-		  .ovt_slew_control(8'b00_00_00_00),
-		  .input_buffer_sel(8'b00_00_00_00))
-		Com_2
-		 (.oe(tmpOE__Com_2_net),
-		  .y({Net_41[3:0]}),
-		  .fb({tmpFB_3__Com_2_net[3:0]}),
-		  .io({tmpIO_3__Com_2_net[3:0]}),
-		  .siovref(tmpSIOVREF__Com_2_net),
-		  .interrupt({tmpINTERRUPT_0__Com_2_net[0:0]}),
+		  .slew_rate(1'b0),
+		  .spanning(0),
+		  .use_annotation(1'b0),
+		  .vtrip(2'b10),
+		  .width(1),
+		  .ovt_hyst_trim(1'b0),
+		  .ovt_needed(1'b0),
+		  .ovt_slew_control(2'b00),
+		  .input_buffer_sel(2'b00))
+		Pin_1
+		 (.oe(tmpOE__Pin_1_net),
+		  .y({Net_528}),
+		  .fb({tmpFB_0__Pin_1_net[0:0]}),
+		  .io({tmpIO_0__Pin_1_net[0:0]}),
+		  .siovref(tmpSIOVREF__Pin_1_net),
+		  .interrupt({tmpINTERRUPT_0__Pin_1_net[0:0]}),
 		  .in_clock({1'b0}),
 		  .in_clock_en({1'b1}),
 		  .in_reset({1'b0}),
@@ -1790,82 +1311,21 @@ module top ;
 		  .out_clock_en({1'b1}),
 		  .out_reset({1'b0}));
 
-	assign tmpOE__Com_2_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{4'b1111} : {4'b1111};
+	assign tmpOE__Pin_1_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
 
-	wire [3:0] tmpOE__Com_3_net;
-	wire [3:0] tmpFB_3__Com_3_net;
-	wire [3:0] tmpIO_3__Com_3_net;
-	wire [0:0] tmpINTERRUPT_0__Com_3_net;
-	electrical [0:0] tmpSIOVREF__Com_3_net;
 
-	cy_psoc3_pins_v1_10
-		#(.id("36537c39-a92a-4480-a573-222748a4a3da"),
-		  .drive_mode(12'b110_110_110_110),
-		  .ibuf_enabled(4'b1_1_1_1),
-		  .init_dr_st(4'b0_0_0_0),
-		  .input_clk_en(0),
-		  .input_sync(4'b1_1_1_1),
-		  .input_sync_mode(4'b0_0_0_0),
-		  .intr_mode(8'b00_00_00_00),
-		  .invert_in_clock(0),
-		  .invert_in_clock_en(0),
-		  .invert_in_reset(0),
-		  .invert_out_clock(0),
-		  .invert_out_clock_en(0),
-		  .invert_out_reset(0),
-		  .io_voltage(",,,"),
-		  .layout_mode("NONCONTIGUOUS"),
-		  .oe_conn(4'b0_0_0_0),
-		  .oe_reset(0),
-		  .oe_sync(4'b0_0_0_0),
-		  .output_clk_en(0),
-		  .output_clock_mode(4'b0_0_0_0),
-		  .output_conn(4'b1_1_1_1),
-		  .output_mode(4'b0_0_0_0),
-		  .output_reset(0),
-		  .output_sync(4'b0_0_0_0),
-		  .pa_in_clock(-1),
-		  .pa_in_clock_en(-1),
-		  .pa_in_reset(-1),
-		  .pa_out_clock(-1),
-		  .pa_out_clock_en(-1),
-		  .pa_out_reset(-1),
-		  .pin_aliases(",,,"),
-		  .pin_mode("OOOO"),
-		  .por_state(4),
-		  .sio_group_cnt(0),
-		  .sio_hyst(4'b1_1_1_1),
-		  .sio_ibuf(""),
-		  .sio_info(8'b00_00_00_00),
-		  .sio_obuf(""),
-		  .sio_refsel(""),
-		  .sio_vtrip(""),
-		  .sio_hifreq(""),
-		  .sio_vohsel(""),
-		  .slew_rate(4'b0_0_0_0),
-		  .spanning(1),
-		  .use_annotation(4'b0_0_0_0),
-		  .vtrip(8'b10_10_10_10),
-		  .width(4),
-		  .ovt_hyst_trim(4'b0_0_0_0),
-		  .ovt_needed(4'b0_0_0_0),
-		  .ovt_slew_control(8'b00_00_00_00),
-		  .input_buffer_sel(8'b00_00_00_00))
-		Com_3
-		 (.oe(tmpOE__Com_3_net),
-		  .y({Net_44[3:0]}),
-		  .fb({tmpFB_3__Com_3_net[3:0]}),
-		  .io({tmpIO_3__Com_3_net[3:0]}),
-		  .siovref(tmpSIOVREF__Com_3_net),
-		  .interrupt({tmpINTERRUPT_0__Com_3_net[0:0]}),
-		  .in_clock({1'b0}),
-		  .in_clock_en({1'b1}),
-		  .in_reset({1'b0}),
-		  .out_clock({1'b0}),
-		  .out_clock_en({1'b1}),
-		  .out_reset({1'b0}));
+	cy_isr_v1_0
+		#(.int_type(2'b10))
+		isr_2
+		 (.int_signal(Net_519));
 
-	assign tmpOE__Com_3_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{4'b1111} : {4'b1111};
+
+
+	cy_isr_v1_0
+		#(.int_type(2'b10))
+		isr_1
+		 (.int_signal(Net_519));
+
 
 
 

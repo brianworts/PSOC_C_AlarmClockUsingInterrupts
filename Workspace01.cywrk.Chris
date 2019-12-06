@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Workspace01\Design01\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Workspace01\Design01\Design01.cydwr\Pins">
 <ExpandedNodeIds>
 <v>Workspace01</v>
 <v>Workspace01\Design01</v>
@@ -34,8 +34,11 @@
 <v>Workspace01\Design01\Source Files\main.c</v>
 <v>Workspace01\Design01\Generated_Source</v>
 <v>Workspace01\Design01\Generated_Source\PSoC5</v>
+<v>Workspace01\Design01\Generated_Source\PSoC5\isr_1</v>
+<v>Workspace01\Design01\Generated_Source\PSoC5\isr_2</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
+<v>Workspace01</v>
 <v>Workspace01\Design01</v>
 <v>Workspace01\Design01\TopDesign</v>
 <v>Workspace01\Design01\Design01.cydwr</v>
@@ -54,10 +57,9 @@
 <v>Workspace01\Design01\Source Files\main.c</v>
 <v>Workspace01\Design01\Generated_Source</v>
 <v>Workspace01\Design01\Generated_Source\PSoC5</v>
+<v>Workspace01\Design01\Generated_Source\PSoC5\Clock_1</v>
 <v>Workspace01\Design01\Generated_Source\PSoC5\Com</v>
 <v>Workspace01\Design01\Generated_Source\PSoC5\Com_1</v>
-<v>Workspace01\Design01\Generated_Source\PSoC5\Com_2</v>
-<v>Workspace01\Design01\Generated_Source\PSoC5\Com_3</v>
 <v>Workspace01\Design01\Generated_Source\PSoC5\cy_boot</v>
 <v>Workspace01\Design01\Generated_Source\PSoC5\Driver</v>
 <v>Workspace01\Design01\Generated_Source\PSoC5\Driver_ClkInternal</v>
@@ -71,20 +73,21 @@
 <v>Workspace01\Design01\Generated_Source\PSoC5\Driver1_DMA_Com</v>
 <v>Workspace01\Design01\Generated_Source\PSoC5\Driver1_DMA_Seg</v>
 <v>Workspace01\Design01\Generated_Source\PSoC5\Driver1_Seg_Driver_L</v>
-<v>Workspace01\Design01\Generated_Source\PSoC5\Driver2</v>
-<v>Workspace01\Design01\Generated_Source\PSoC5\Driver2_ClkInternal</v>
-<v>Workspace01\Design01\Generated_Source\PSoC5\Driver2_Com_Driver</v>
-<v>Workspace01\Design01\Generated_Source\PSoC5\Driver2_DMA_Com</v>
-<v>Workspace01\Design01\Generated_Source\PSoC5\Driver2_DMA_Seg</v>
-<v>Workspace01\Design01\Generated_Source\PSoC5\Driver2_Seg_Driver_L</v>
-<v>Workspace01\Design01\Generated_Source\PSoC5\Driver3</v>
-<v>Workspace01\Design01\Generated_Source\PSoC5\Driver3_ClkInternal</v>
-<v>Workspace01\Design01\Generated_Source\PSoC5\Driver3_Com_Driver</v>
-<v>Workspace01\Design01\Generated_Source\PSoC5\Driver3_DMA_Com</v>
-<v>Workspace01\Design01\Generated_Source\PSoC5\Driver3_DMA_Seg</v>
-<v>Workspace01\Design01\Generated_Source\PSoC5\Driver3_Seg_Driver_L</v>
 <v>Workspace01\Design01\Generated_Source\PSoC5\Em_EEPROM_Dynamic</v>
+<v>Workspace01\Design01\Generated_Source\PSoC5\isr_1</v>
+<v>Workspace01\Design01\Generated_Source\PSoC5\isr_1\isr_1.c</v>
+<v>Workspace01\Design01\Generated_Source\PSoC5\isr_1\isr_1.h</v>
+<v>Workspace01\Design01\Generated_Source\PSoC5\isr_2</v>
+<v>Workspace01\Design01\Generated_Source\PSoC5\isr_2\isr_2.c</v>
+<v>Workspace01\Design01\Generated_Source\PSoC5\isr_2\isr_2.h</v>
 <v>Workspace01\Design01\Generated_Source\PSoC5\LCD</v>
+<v>Workspace01\Design01\Generated_Source\PSoC5\LCD_LCDPort</v>
+<v>Workspace01\Design01\Generated_Source\PSoC5\Pin_1</v>
+<v>Workspace01\Design01\Generated_Source\PSoC5\PWM_1</v>
+<v>Workspace01\Design01\Generated_Source\PSoC5\Seg</v>
+<v>Workspace01\Design01\Generated_Source\PSoC5\Seg_1</v>
+<v>Workspace01\Design01\Generated_Source\PSoC5\SW</v>
+<v>Workspace01\Design01\Generated_Source\PSoC5\cycodeshareexport.ld</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -109,6 +112,7 @@
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
@@ -138,30 +142,16 @@
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver1_PM.lst</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver1_Seg_Driver_L.lst</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver1_Seg_Driver_L_PM.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2_ClkInternal.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2_Com_Driver.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2_Com_Driver_PM.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2_DMA_Com_dma.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2_DMA_Seg_dma.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2_PM.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2_Seg_Driver_L.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2_Seg_Driver_L_PM.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver3.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver3_ClkInternal.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver3_Com_Driver.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver3_Com_Driver_PM.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver3_DMA_Com_dma.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver3_DMA_Seg_dma.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver3_PM.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver3_Seg_Driver_L.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver3_Seg_Driver_L_PM.lst</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_1.lst</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_2.lst</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD.lst</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM_1.lst</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM_1_PM.lst</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SW.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SW2.lst</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Design01.elf</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Design01.hex</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Design01.map</v>
@@ -176,6 +166,7 @@
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
@@ -205,20 +196,20 @@
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver1_PM.lst</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver1_Seg_Driver_L.lst</v>
 <v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver1_Seg_Driver_L_PM.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2_ClkInternal.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2_Com_Driver.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2_Com_Driver_PM.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2_DMA_Com_dma.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2_DMA_Seg_dma.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2_PM.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2_Seg_Driver_L.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver2_Seg_Driver_L_PM.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver3.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver3_ClkInternal.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver3_Com_Driver.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver3_Com_Driver_PM.lst</v>
-<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Driver3_DMA_Com_dma.lst</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_1.lst</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_2.lst</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD.lst</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM_1.lst</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM_1_PM.lst</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SW.lst</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Design01.elf</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Design01.hex</v>
+<v>Workspace01\Design01\CortexM3\ARM_GCC_541\Debug\Design01.map</v>
+<v>Workspace01\Design01\Design01.gpdsc</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -236,13 +227,13 @@
 <v>Workspace01\Design01\System Reference Guides\cy_boot_v5_70</v>
 <v>Workspace01\Design01\CharLCD_v2_20.pdf</v>
 <v>Workspace01\Design01\cy_clock_v2_20.pdf</v>
-<v>Workspace01\Design01\cy_isr_v1_70.pdf</v>
+<v>Workspace01\Design01\cy_isr_v1_70</v>
+<v>Workspace01\Design01\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
 <v>Workspace01\Design01\cy_pins_v2_20</v>
 <v>Workspace01\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>Workspace01\Design01\LED_Driver_v1_10</v>
 <v>Workspace01\Design01\LED_Driver_v1_10\LED_Driver_v1_10.pdf</v>
-<v>Workspace01\Design01\Timer_v2_80.pdf</v>
-<v>Workspace01\Design01\ZeroTerminal.pdf</v>
+<v>Workspace01\Design01\PWM_v3_30.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Workspace01</v>
@@ -253,13 +244,13 @@
 <v>Workspace01\Design01\System Reference Guides\cy_boot_v5_70</v>
 <v>Workspace01\Design01\CharLCD_v2_20.pdf</v>
 <v>Workspace01\Design01\cy_clock_v2_20.pdf</v>
-<v>Workspace01\Design01\cy_isr_v1_70.pdf</v>
+<v>Workspace01\Design01\cy_isr_v1_70</v>
+<v>Workspace01\Design01\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
 <v>Workspace01\Design01\cy_pins_v2_20</v>
 <v>Workspace01\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>Workspace01\Design01\LED_Driver_v1_10</v>
 <v>Workspace01\Design01\LED_Driver_v1_10\LED_Driver_v1_10.pdf</v>
-<v>Workspace01\Design01\Timer_v2_80.pdf</v>
-<v>Workspace01\Design01\ZeroTerminal.pdf</v>
+<v>Workspace01\Design01\PWM_v3_30.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -268,7 +259,20 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs />
+<OpenDocs>
+<name v=".\Design01.cydsn\main.c" />
+<name v=".\Design01.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Design01.cydsn\Design01.cydwr" />
+<name v=".\Design01.cydsn\Generated_Source\PSoC5\isr_1.c" />
+<name v=".\Design01.cydsn\Generated_Source\PSoC5\isr_2.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1360, 751" SelectedTabbedMdiWindow="ed226c0f-26b0-4d43-8b33-969b778fa78c"><DocumentWindow Key="C:\Users\tmj32\Desktop\343Final\PSOC_C_AlarmClockUsingInterrupts\Design01.cydsn\main.c" Guid="ed226c0f-26b0-4d43-8b33-969b778fa78c" /><DocumentWindow Key="C:\Users\tmj32\Desktop\343Final\PSOC_C_AlarmClockUsingInterrupts\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="ae3cd2be-c49a-435c-8f1c-19f9b50ea2cd" /><DocumentWindow Key="C:\Users\tmj32\Desktop\343Final\PSOC_C_AlarmClockUsingInterrupts\Design01.cydsn\Design01.cydwr" Guid="60b2f3ea-2d0d-47e0-86ba-0305beafa37d" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="97e90246-e709-42fe-b921-7d4c0ed8b723" /><DocumentWindow Key="C:\Users\tmj32\Desktop\343Final\PSOC_C_AlarmClockUsingInterrupts\Design01.cydsn\Generated_Source\PSoC5\isr_1.c" Guid="f0ec0686-3a41-44b5-8b6e-2ec99b5b75c0" /><DocumentWindow Key="C:\Users\tmj32\Desktop\343Final\PSOC_C_AlarmClockUsingInterrupts\Design01.cydsn\Generated_Source\PSoC5\isr_2.c" Guid="df086ae7-cb17-44d3-994b-2b7b41ef5277" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
